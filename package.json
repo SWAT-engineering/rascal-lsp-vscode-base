@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "description": "VS Code base package for Rascal LSP languages",
   "main": "index.js",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
   "scripts": {
-    "build": "tsc"
+    "check": "tslint",
+    "compile": "tsc -p ./"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,12 @@
   },
   "homepage": "https://github.com/SWAT-engineering/rascal-lsp-vscode-base#readme",
   "devDependencies": {
+    "@types/node": "^10.9.2",
+    "tslint": "^5.11.0",
     "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "vscode": "^1.1.6",
+    "vscode-languageclient": "^4.1.4"
   }
 }
