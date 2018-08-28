@@ -1,0 +1,26 @@
+{
+  "name": "rascal-lsp-vscode-base",
+  "version": "0.1.0",
+  "description": "VS Code base package for Rascal LSP languages",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SWAT-engineering/rascal-lsp-vscode-base.git"
+  },
+  "keywords": [
+    "vscode",
+    "rascal"
+  ],
+  "author": "Davy Landman",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SWAT-engineering/rascal-lsp-vscode-base/issues"
+  },
+  "homepage": "https://github.com/SWAT-engineering/rascal-lsp-vscode-base#readme",
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
