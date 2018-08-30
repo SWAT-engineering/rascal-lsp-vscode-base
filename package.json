@@ -2,7 +2,8 @@
   "name": "rascal-lsp-vscode-base",
   "version": "0.1.0",
   "description": "VS Code base package for Rascal LSP languages",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "engines": {
     "vscode": "^1.26.0"
   },

@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "declaration": true, // publish for npm
         "module": "commonjs",
         "target": "es6",
         "outDir": "lib/",
@@ -18,6 +19,7 @@
     },
     "exclude": [
         "node_modules",
-        ".vscode-test"
-    ]
+        ".vscode-test",
+        "lib"
+    ],
 }
